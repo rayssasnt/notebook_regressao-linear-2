@@ -1,10 +1,9 @@
 # Análise de Regressão Linear para Preço de Imóveis
 
+📍 Projeto é de uso pessoal e educacional , desenvolvido através do Curso: Regressão Linear: técnicas avançadas de modelagem da `@Alura` + `@oracle_university`.
+
+
 Este notebook contém uma análise completa de regressão linear para prever o preço de imóveis, utilizando um dataset que inclui informações como valor, área, distância da praia e distância da farmácia `dataset.csv` .
-
-
-Gráficos como boxplots, histogramas e pairplots são utilizados para visualizar a distribuição das variáveis, especialmente do preço ('Valor'), e identificar possíveis outliers e a natureza das relações entre as variáveis.
-
 
 ## 1. Carregamento e Exploração Inicial dos Dados
 ## 2. Visualização dos Dados Brutos
