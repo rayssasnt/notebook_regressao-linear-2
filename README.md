@@ -29,6 +29,8 @@ Um modelo de regressão linear também é construído usando a biblioteca `sklea
 ## 6. Simulador de Preço de Imóvel
 
 Foi implementado um simulador simples que permite ao usuário inserir a área e a distância da praia de um imóvel para obter uma estimativa do seu preço. A previsão é feita usando o modelo treinado e a transformação inversa (`np.exp`) para retornar o valor em Reais.
+
+
 ![img](imgs/img3.png)
 
 
