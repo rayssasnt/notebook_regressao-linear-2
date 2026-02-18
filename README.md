@@ -6,8 +6,6 @@ Este notebook contém uma análise completa de regressão linear para prever o p
 Gráficos como boxplots, histogramas e pairplots são utilizados para visualizar a distribuição das variáveis, especialmente do preço ('Valor'), e identificar possíveis outliers e a natureza das relações entre as variáveis.
 
 
-
-
 ## 1. Carregamento e Exploração Inicial dos Dados
 ## 2. Visualização dos Dados Brutos
 
@@ -21,17 +19,18 @@ Os dados são divididos em conjuntos de treino e teste. Inicialmente, um modelo 
 
 -  `log_dist_farmacia` não era estatisticamente significativo (p-valor alto). Consequentemente, o modelo foi modificado, removendo `log_dist_farmacia`, e um novo modelo foi ajustado e avaliado. O sumário do novo modelo, com apenas `log_area` e `log_dist_praia`, mostra a melhoria nos parâmetros de significância.
 
+![img](imgs/img1.png)
+
 
 ## 5. Construção e Avaliação do Modelo de Regressão (scikit-learn)
 
 Um modelo de regressão linear também é construído usando a biblioteca `sklearn`. O modelo é treinado com os dados de treino e o coeficiente de determinação (R²) é calculado para os dados de treino e teste, avaliando o desempenho do modelo.
 
 
-
 ## 6. Simulador de Preço de Imóvel
 
 Foi implementado um simulador simples que permite ao usuário inserir a área e a distância da praia de um imóvel para obter uma estimativa do seu preço. A previsão é feita usando o modelo treinado e a transformação inversa (`np.exp`) para retornar o valor em Reais.
-
+![img](imgs/img3.png)
 
 
 ## 7. Interpretação dos Coeficientes do Modelo
@@ -43,3 +42,4 @@ Os coeficientes do modelo de regressão linear são extraídos e apresentados em
 
 Para verificar a qualidade do modelo, um gráfico de dispersão entre os valores previstos e os valores reais (de treino) é gerado. Idealmente, os pontos devem se agrupar ao redor de uma linha reta de 45 graus. Além disso, um histograma dos resíduos (diferença entre valores reais e previstos) é criado para verificar se eles se aproximam de uma distribuição normal com média zero, um dos pressupostos da regressão linear.
 
+![img](imgs/img2.png)
