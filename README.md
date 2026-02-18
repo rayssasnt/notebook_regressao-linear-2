@@ -43,3 +43,15 @@ Os coeficientes do modelo de regressão linear são extraídos e apresentados em
 Para verificar a qualidade do modelo, um gráfico de dispersão entre os valores previstos e os valores reais (de treino) é gerado. Idealmente, os pontos devem se agrupar ao redor de uma linha reta de 45 graus. Além disso, um histograma dos resíduos (diferença entre valores reais e previstos) é criado para verificar se eles se aproximam de uma distribuição normal com média zero, um dos pressupostos da regressão linear.
 
 ![img](imgs/img2.png)
+
+
+# Tecnologias Utilizadas 🔨
+- Pandas
+- numpy
+- matplotlib.pyplot
+- seaborn
+- scikit-learn
+- statsmodels
+- Python
+
+
