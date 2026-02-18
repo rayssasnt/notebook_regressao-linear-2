@@ -33,6 +33,7 @@ Um modelo de regressão linear também é construído usando a biblioteca `sklea
 Foi implementado um simulador simples que permite ao usuário inserir a área e a distância da praia de um imóvel para obter uma estimativa do seu preço. A previsão é feita usando o modelo treinado e a transformação inversa (`np.exp`) para retornar o valor em Reais.
 
 
+
 ## 7. Interpretação dos Coeficientes do Modelo
 
 Os coeficientes do modelo de regressão linear são extraídos e apresentados em um DataFrame, juntamente com o intercepto. Isso permite interpretar o impacto de cada variável (log da área e log da distância da praia) no log do preço do imóvel. Por exemplo, um aumento de 1% na área do imóvel está associado a um aumento de 1.06% no preço.
